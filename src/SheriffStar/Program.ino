@@ -1,5 +1,5 @@
 
-uint8_t leds = 0U;
+uint8_t leds;
 uint32_t lastProgStep = 0U;
 uint8_t program_set = 0U;
 bool showProgramNumber = false;
@@ -98,6 +98,16 @@ void applyProgram(uint8_t prog) {
             leds |= 0x01;
           }
         }
+
+        // this isn't faster
+        // static const uint8_t lookup[20] = {15,26,38,49,57,60,57,49,38,26,15,7,3,1,0,0,0,1,3,7}; // offset sinus squared scaled by 60
+        // leds = 0x00;
+        // for (uint8_t i=0; i<6U; i++) {
+        //   leds = leds<<1;
+        //   if (lookup[(now/100)%20] > (now%60)) {
+        //     leds |= 0x01;
+        //   }
+        // }
       }
       break;
 
