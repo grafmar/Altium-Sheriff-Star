@@ -41,7 +41,7 @@ void loop() {
 
 void debounceButton() {
   bool buttonState = (digitalRead(buttonPin) == LOW);   // read the state of the button
-//  bool buttonState = ((PORTB & 0x01) == 0x00);          // read the state of the button
+//  bool buttonState = ((PINB & 0x01) == 0x00);          // read the state of the button
   uint32_t now = millis();                              // get milliseconds from start as time reference
   buttonEvent = false;                                  // reset the buttonEvent
 

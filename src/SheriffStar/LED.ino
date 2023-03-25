@@ -9,6 +9,13 @@ void setLED(uint8_t ledState){
   // PORTB &= ~ledState;
   // PORTB |= ledState;
 
+  // write the ports fast in other way
+  // if (ledState & 0x01) PORTB &= ~0x02; else PORTB |= 0x02;
+  // if (ledState & 0x02) PORTB &= ~0x04; else PORTB |= 0x04;
+  // if (ledState & 0x04) PORTB &= ~0x08; else PORTB |= 0x08;
+  // if (ledState & 0x08) PORTB &= ~0x10; else PORTB |= 0x10;
+  
+  
   // write the ports slow
   digitalWrite(1, ((ledState & 0x01) ? LOW : HIGH));
   digitalWrite(2, ((ledState & 0x02) ? LOW : HIGH));
