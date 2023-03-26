@@ -1,0 +1,10 @@
+Output: Netlist
+Type  : Test Points
+From  : PCB Document [Sheriff-Stern.PcbDoc]
+   Generated File[Netlist AD Sheriff Star Sheriff Star RevA0.ipc]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 15:32:15 On 09.03.2023
