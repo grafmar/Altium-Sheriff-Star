@@ -41,6 +41,10 @@ void evalProgram() {
 void applyProgram(uint8_t prog) {
   // evaluate program
   uint32_t now = millis();
+  uint32_t nowUs = micros();
+  static const uint32_t pwmFactor = 20000; // with micros this are 50Hz
+  static const uint32_t pwmMinValue = 2000; // Low PWM values are difficult. Therefore set values below pwmMinValue to zero
+
     switch(prog) {
     case 0U: // automatic change - no program
       break;
@@ -74,8 +78,9 @@ void applyProgram(uint8_t prog) {
     case 5U:
       // dimming up and down all LEDs together every 2s
       {
-        float value = (1+sin(now/318.0))/2*60; // 2000/(2pi) = 318
-        if (value > (now%60)) {
+        float value = (1+sin(now/318.0))/2 * pwmFactor; // 2000/(2pi) = 318
+        if (value < pwmMinValue) value = 0U; // Set values below pwmMinValue to zero
+        if (value > (nowUs % pwmFactor)) {
           leds = 0xFF;
         } else {
           leds = 0x00;
@@ -93,8 +98,9 @@ void applyProgram(uint8_t prog) {
           // float value = (1 + sin(now/318.0 + two_pi_6th*i))/2*25; // 2000/(2pi) = 318
           float value = ((1 + sin(now/318.0 + two_pi_6th*i))/2); // 2000/(2pi) = 318
           value = value * value; // square for more low level
-          value = value * 60; // scale with PWM-value (60)
-          if (value > (now%60)) {
+          value = value * pwmFactor; // scale with PWM-value (60)
+          if (value < pwmMinValue) value = 0U; // Set values below pwmMinValue to zero
+          if (value > (nowUs % pwmFactor)) {
             leds |= 0x01;
           }
         }
