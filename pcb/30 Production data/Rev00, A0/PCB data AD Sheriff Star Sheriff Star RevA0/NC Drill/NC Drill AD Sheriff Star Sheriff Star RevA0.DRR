@@ -1,0 +1,15 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Sheriff-Stern.PcbDoc   09.03.2023  15:32:14
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Side to Bottom Side
+ASCII Plated RoundHoles File : NC Drill AD Sheriff Star Sheriff Star RevA0-Plated.TXT
+EIA File   : NC Drill AD Sheriff Star Sheriff Star RevA0.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             12        PTH        228.65mm (9.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              12
+
+Total Processing Time (hh:mm:ss) : 00:00:00

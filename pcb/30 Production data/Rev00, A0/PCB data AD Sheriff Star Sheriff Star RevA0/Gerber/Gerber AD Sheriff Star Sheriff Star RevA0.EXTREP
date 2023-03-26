@@ -1,0 +1,19 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: Gerber AD Sheriff Star Sheriff Star RevA0.GBR   09.03.2023  15:32:13
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top Side                                
+.GBL                Bottom Side                             
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Outline                                 
+.GM6                Mechanical drawing                      
+------------------------------------------------------------------------------------------

@@ -348,3 +348,5 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/pcb/10 Altium/History
+/pcb/10 Altium/__Previews

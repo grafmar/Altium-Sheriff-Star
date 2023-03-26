@@ -1,0 +1,12 @@
+DRC Rules Export File for PCB: C:\MySpace\Work\IMT\Altium\Sheriff-Stern\10 Altium\Sheriff-Stern.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_SelectiveBottom|Scope=Board|Minimum=196.85
+RuleKind=Clearance|RuleName=Clearance_SelectiveTop|Scope=Board|Minimum=196.85
+RuleKind=Clearance|RuleName=Clearance_AnyToIso|Scope=Board|Minimum=314.96
+RuleKind=Clearance|RuleName=Clearance_LVDS_inter-pair|Scope=Board|Minimum=20.00
+RuleKind=Clearance|RuleName=Clearance_LVDS|Scope=Board|Minimum=20.00
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=5.91
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.97
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Clearance_Fanout|Scope=Board|Minimum=5.91
