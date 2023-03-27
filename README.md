@@ -21,6 +21,9 @@ The hardware consists of:
   * 1x tactile switch (Alps, SKQMASE010)
   * 1x 100nF 0603
 
+Schematics:
+
+[<img src="doc/schematic.png" alt="Schematics" width="50%"/>](pcb/30%20Production%20data/Rev00,%20A0/Schematic%20AD%20Sheriff%20Star%20Sheriff%20Star%20Rev00.PDF)
 
 ## Author
 [Marco Graf](https://github.com/grafmar)
