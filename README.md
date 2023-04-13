@@ -2,8 +2,9 @@
 PCB with Sherif-Star shape and 6 animated LEDs on it. It has the Altium Logo on the front and the Test SHERIFF.
 I also designed a holder to display the sheriff star on your desk.
 
-<img src="doc/Top_View.png" alt="PCB Top View" width="30%"/> <img src="doc/Bottom_View.png" alt="PCB Bottom View" width="30%"/>
+<img src="doc/star.gif" alt="Animated GIF" width="30%"/>  <img src="doc/Top_View.png" alt="PCB Top View" width="30%"/> <img src="doc/Bottom_View.png" alt="PCB Bottom View" width="30%"/>
 
+<img src="doc/foto_front.jpg" alt="Foto Front" width="30%"/> <img src="doc/foto_side.jpg" alt="Foto Side" width="30%"/> <img src="doc/foto_back.jpg" alt="Foto Back" width="30%"/>
 
 ## SW-Requirements
 * [Arduino IDE](https://www.arduino.cc/en/main/software) (V 2.0.4)
