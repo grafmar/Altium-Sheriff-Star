@@ -20,7 +20,8 @@ The hardware consists of:
   * 1x CR2032 holder with CR2032 battery (Renata, SMTU2032-LF)
   * 1x slide switch (C&K, JS202011SCQN)
   * 1x tactile switch (Alps, SKQMASE010)
-  * 1x 100nF 0603
+  * 1x 100nF 060
+  * 1x 25mm [Safety Pins Brooch](https://www.aliexpress.com/item/4000026759489.html)
 
 Schematics:
 
