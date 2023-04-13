@@ -3,7 +3,7 @@
   One button is read in to select the program
 */
 
-const int buttonPin = 0;
+const int buttonPin = 10;
 
 uint32_t buttonTime = 0U;
 bool buttonStateLast = false;
@@ -16,12 +16,12 @@ void debounceButton();
 void setup() {
   // initialize input and output pins
   pinMode(buttonPin, INPUT_PULLUP);
-  pinMode(1, OUTPUT);
-  pinMode(2, OUTPUT);
+  pinMode(5, OUTPUT);
   pinMode(3, OUTPUT);
+  pinMode(2, OUTPUT);
+  pinMode(1, OUTPUT);
+  pinMode(0, OUTPUT);
   pinMode(4, OUTPUT);
-  // DDRB = 0x1E;
-  // PORTB = 0x01;
 }
 
 
@@ -41,7 +41,6 @@ void loop() {
 
 void debounceButton() {
   bool buttonState = (digitalRead(buttonPin) == LOW);   // read the state of the button
-//  bool buttonState = ((PINB & 0x01) == 0x00);          // read the state of the button
   uint32_t now = millis();                              // get milliseconds from start as time reference
   buttonEvent = false;                                  // reset the buttonEvent
 
