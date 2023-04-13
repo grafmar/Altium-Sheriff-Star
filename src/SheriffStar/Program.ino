@@ -22,8 +22,8 @@ void evalProgram() {
     if ((millis() - progSetTime) > SHOW_PROGRAM_NUMBER_TIME) {
       showProgramNumber = false;
     }
-    if (program_set >= 4) {
-      setLED(0x08 | (0x01U<<(program_set-4)));
+    if (program_set >= NUM_OF_LEDS) {
+      setLED(0x20 | (0x01U<<(program_set-NUM_OF_LEDS)));
     } else {
       setLED(0x01U<<program_set);
     }
