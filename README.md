@@ -2,7 +2,7 @@
 PCB with Sherif-Star shape and 6 animated LEDs on it. It has the Altium Logo on the front and the Text "SHERIFF".
 I also designed a holder to display the sheriff star on your desk.
 
-<img src="doc/star.gif" alt="Animated GIF" width="30%"/>  <img src="doc/Top_View.png" alt="PCB Top View" width="30%"/> <img src="doc/Bottom_View.png" alt="PCB Bottom View" width="30%"/>
+<img src="doc/star.gif" alt="Animated GIF" width="30%"/> <img src="doc/Top_View.png" alt="PCB Top View" width="30%"/> <img src="doc/Bottom_View.png" alt="PCB Bottom View" width="30%"/>
 
 <img src="doc/foto_front.jpg" alt="Foto Front" width="30%"/> <img src="doc/foto_side.jpg" alt="Foto Side" width="30%"/> <img src="doc/foto_back.jpg" alt="Foto Back" width="30%"/>
 
@@ -26,6 +26,11 @@ The hardware consists of:
 Schematics:
 
 [<img src="doc/schematic.png" alt="Schematics" width="50%"/>](pcb/30%20Production%20data/Rev00,%20A0/Schematic%20AD%20Sheriff%20Star%20Sheriff%20Star%20Rev00.PDF)
+
+## Holder
+The holder is designed in [FreeCAD](https://www.freecad.org/) and printed on a 3D printer. It has a small groove on the top to put the needle in. Like this it stands stable on the office table.
+
+<img src="doc/holder.png" alt="Holder" width="30%"/> 
 
 ## Author
 [Marco Graf](https://github.com/grafmar)
